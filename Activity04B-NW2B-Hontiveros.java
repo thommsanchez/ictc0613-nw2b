@@ -32,10 +32,12 @@ class Activity04B {
 
         if (text[id].equals(tx)) {
 
+            TimeUnit.SECONDS.sleep(5);
             text[id] = "";
 
         } else {
 
+            TimeUnit.SECONDS.sleep(5);
             System.out.println("\nThat item does not exist. Press [2] again to try deleting another value or press [3] to review the recent changes.");
 
         }

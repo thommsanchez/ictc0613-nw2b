@@ -39,14 +39,14 @@ public class Act5_MyLinkedList_Domingo_NW2B {
           String Lname = s.nextLine();
           System.out.print("Enter area code: ");
           int Acode = s.nextInt();
-          s.nextLine(); // since we ask integer type input from the user therefore we need to clear that out using this to avoid errors
+          s.nextLine(); // since we ask integer type input from the user therefore we need to clear that out using this method to avoid errors
           System.out.print("Enter telephone number: ");
           String Tnum = s.nextLine();
           System.out.print("Enter gender: ");
           String gen = s.nextLine();
           System.out.print("Enter age: ");
           int age = s.nextInt();
-          s.nextLine();// since we ask integer type input from the user therefore we need to clear that out using this to avoid errors
+          s.nextLine();// since we ask integer type input from the user therefore we need to clear that out using this method to avoid errors
            
           
           System.out.println();
@@ -68,7 +68,7 @@ public class Act5_MyLinkedList_Domingo_NW2B {
 
         //printing all the information gathered
         System.out.println("Welcome to the club " + firstname.get(i) +" " + middlename.get(i) + " "+ lastname.get(i)+ "!");
-        System.out.println("Your area code and telephone number is " + "(" + telNum.get(i)+ ") " + areaCode.get(i)+"." );
+        System.out.println("Your area code and telephone number is "  + areaCode.get(i) + "(" + telNum.get(i)+ ") " + "." );
         System.out.println("you are " + gender.get(i) + " member and your age is " + agePer.get(i));
         System.out.println();
        
